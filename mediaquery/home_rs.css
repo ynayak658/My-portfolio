@@ -1,0 +1,72 @@
+/* @media (max-width: 480px) {} */
+
+@media/* (min-width: 480px) and*/ (max-width: 667px) {
+    .home-container{
+        flex-direction: column-reverse;
+    }
+        .home-img-access {
+        height: 300px;
+        width: 300px;
+    }
+    .home-content{
+        text-align: center;
+        justify-items: center;
+    }
+    .home-content h3 {
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+
+    .home-content h1 span {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .home-content h4 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 667px) and (max-width: 1023.9px) {
+    .home-img-access {
+        height: 300px;
+        width: 300px;
+    }
+
+    .home-content h3 {
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+
+    .home-content h1 span {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .home-content h4 {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .download-resume {
+        background-color: #33251D;
+        padding: 7px 15px;
+        border: none;
+        /* border-radius: 7px; */
+    }
+
+}
+
+@media (min-width: 1024.1px) {}

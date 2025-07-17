@@ -1,0 +1,131 @@
+@media (max-width: 480px) {
+    .contact-img-access {
+        height: 300px;
+        width: 300px;
+    }
+
+    .panel {
+        padding: 25% 7%;
+    }
+
+    .contact-content {
+        padding: 20px 20px;
+    }
+
+    .contact-img {
+        align-items: start;
+    }
+
+    .contact-img-content {
+        bottom: 20%;
+    }
+
+    .contactH2 {
+        font-size: 38px;
+    }
+
+    .contact-inputs,
+    #message {
+        font-size: 14px;
+    }
+    .copy-right h2, .social-logo i{
+        font-weight: 500;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 667px) {
+    .contact-img-access {
+        height: 500px;
+        width: 500px;
+    }
+
+    .contact-inputs,
+    #message {
+        font-size: 14px;
+    }
+
+    .panel {
+        padding: 10% 7%;
+    }
+
+    .contactH2 {
+        font-size: 38px;
+    }
+
+    .contact-img-content {
+        bottom: 10%;
+    }
+
+    #contact {
+        height: 650px;
+    }
+
+
+}
+
+
+@media (min-width: 667px) and (max-width: 1024px) {
+    .contact-img-content {
+        bottom: 10%;
+    }
+
+    #contact {
+        height: 650px;
+    }
+
+    /* .contact-content form {
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+        .contact-inputs,
+    #message {
+        font-size: 14px;
+    }
+    .contact-content{
+        padding: 0px 30px;
+    }
+
+
+
+    #fname {
+        grid-column: 1/ 6;
+        grid-row: 1/2;
+
+    }
+
+    #lname {
+        grid-column: 6/ 11;
+        grid-row: 1/2;
+    }
+
+    #tel {
+        grid-column: 1/ 6;
+        grid-row: 2/3;
+    }
+
+    #email {
+        grid-column: 6/ 11;
+        grid-row: 2/3;
+    }
+
+    #message {
+        grid-column: 1/ 11;
+        grid-row: 3/4;
+
+    }
+
+    .contact-content button {
+        grid-column: 1/ 11;
+        grid-row: 4/ 5;
+    } */
+
+
+
+
+
+}
+
+
+
+@media (min-width: 1024px) {}

@@ -1,0 +1,138 @@
+
+
+@media (max-width: 480px) {
+    .about-container{
+        flex-direction: column;
+        background-color: #5c3b28;
+        padding: 0px;
+        border-radius: 20px;
+    }
+    #about{
+        padding: 30px;
+    }
+    .about-content{
+        padding: 0px 30px 0px 30px;
+        background-color: transparent;
+        margin-top: -50px;
+    }
+    .about-content h1{
+        font-size: 35px;
+    }
+    .about-content h3{
+        font-size: 20px;
+    }
+    .about-content p{
+        color: #FFF4ED;
+        padding: 10px 0px 30px;
+        text-align: center;
+    }
+        
+    .about-img-access{
+        height: 300px;
+        width: 300px;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 667px) {
+    .about-container{
+        flex-direction: column;
+        background-color: #5c3b28;
+        padding: 0px;
+        border-radius: 20px;
+
+    }
+    #about{
+        padding: 30px;
+    }
+    .about-content{
+        padding:  0px 30px 30px 30px;
+        background-color: transparent;
+        margin-top: -50px;
+
+    }
+    .about-content p{
+        text-align: center;
+    }
+    .about-img-access{
+        height: 300px;
+        width: 300px;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+    #about{
+        padding:30px 30px;
+    }
+    .about-container{
+        padding: 0px;
+        background-color: #5c3b28;
+        border-radius: 20px;
+    }
+    .about-content{
+        padding:  0 30px 0 0;
+        background-color: transparent;
+    }
+    .about-content p{
+        font-size: 14px;
+    }
+    .about-img-access{
+        height: 300px;
+        width: 300px;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 1024.1px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 480px) {}
+
+@media (min-width: 480px) and (max-width: 768px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 1024.1px) {} */

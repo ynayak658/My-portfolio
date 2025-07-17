@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+    #projects {
+        height: auto;
+        padding: 50px 30px;
+    }
+
+    /* .website-logo1 {
+        height: 80%;
+        width: 70%;
+    }
+
+    .website-logo2 {
+        height: 70%;
+        width: 80%;
+    }
+
+    .website-logo3 {
+        height: 80%;
+        width: 50%;
+    } */
+    /* .cards{
+        padding: 20px 20px;
+    } */
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    #projects {
+        height: auto;
+        padding: 80px 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #projects {
+        height: auto;
+        padding: 80px 80px;
+    }
+}
+
+@media (min-width: 1024.1px) {}
