@@ -160,13 +160,14 @@ header {
     position: fixed;
     top: 0;
     background-color: rgba(51, 37, 29, 0.4);
+    backdrop-filter: blur(3px);
     border: 0.1px solid #33251D;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     height: 100vh;
     width: 40%;
     transition: 0.3s ease-in-out;
-    right: -50%;
+    right: -100%;
 }
 
 .slidemenu-show {
